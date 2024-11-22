@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar a:hover {
+    color: #ff6f61;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #c78f17, #f2fcfe);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 3.5em;
+}
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.hero .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.hero .btn:hover {
+    background: #e0554f;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    background: #ffffff;
+}
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.project {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+.contact .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #1c92d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.contact .btn:hover {
+    background: #166b9e;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 0.9em;
+}
